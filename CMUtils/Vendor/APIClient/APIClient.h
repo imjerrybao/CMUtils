@@ -9,10 +9,13 @@
 #import "APISubClient.h"
 
 @interface APIClient : NSObject
+@property (nonatomic,strong) NSString *loginHost;
+@property (nonatomic,strong) NSString *imageHost;
+@property (nonatomic,strong) NSString *serviceHost;
+@property (nonatomic,strong) NSString *imageUrlPrefix;
 @property (nonatomic,strong) APISubClient *loginClient;
 @property (nonatomic,strong) APISubClient *imageClient;
 @property (nonatomic,strong) APISubClient *serviceClient;
-@property (nonatomic,strong) NSString *imageUrlPrefix;
 
 + (APIClient *)sharedInstance;
 

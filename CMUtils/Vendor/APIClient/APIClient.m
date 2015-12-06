@@ -29,10 +29,13 @@ static APIClient *_sharedClient = nil;
             serviceHost:(NSString *)serviceHost
          imageUrlPrefix:(NSString *)imageUrlPrefix
 {
+    self.loginHost = loginHost;
+    self.imageHost = imageHost;
+    self.serviceHost = serviceHost;
+    self.imageUrlPrefix = imageUrlPrefix;
     self.loginClient   = [[APISubClient alloc] initWithBaseURL:loginHost];
     self.imageClient   = [[APISubClient alloc] initWithBaseURL:imageHost];
     self.serviceClient = [[APISubClient alloc] initWithBaseURL:serviceHost];
-    _imageUrlPrefix = imageUrlPrefix;
     [self onNetwork];
 }
 

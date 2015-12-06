@@ -51,8 +51,12 @@
         return;
     }
     
-    //将图片id转换成NSURLRequest
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[[APIClient sharedInstance] imageUrlForId:imageId size:size]]];
+    NSString *imageUrl = imageId;
+    if (![imageId hasPrefix:@"http://"] || ![imageId hasPrefix:@"http://"]) {
+        //将图片id转换成NSURLRequest
+        imageUrl = [[APIClient sharedInstance] imageUrlForId:imageId size:size];
+    }
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:imageUrl]];
     void(^success)(UIImage *image) = ^(UIImage *image)
     {
         if (hook)
@@ -134,8 +138,13 @@
         return;
     }
     
-    //将图片id转换成NSURLRequest
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[[APIClient sharedInstance] imageUrlForId:imageId size:size]]];
+    NSString *imageUrl = imageId;
+    if (![[imageId lowercaseString] hasPrefix:@"http://"] || ![[imageId lowercaseString] hasPrefix:@"http://"]) {
+        //将图片id转换成NSURLRequest
+        imageUrl = [[APIClient sharedInstance] imageUrlForId:imageId size:size];
+    }
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:imageUrl]];
+    
     void(^success)(UIImage *) = ^(UIImage *image)
     {
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{

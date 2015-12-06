@@ -2,7 +2,7 @@
 //  APIClient+image.m
 //  CMUtils
 //
-//  Created by Jerry on 15/3/20.
+//  Created by LiuHuanQing on 15/3/20.
 //  Copyright (c) 2015年 Jerry. All rights reserved.
 //
 
@@ -13,7 +13,8 @@
 #import "UIImage+Util.h"
 #import "Hex62ToStr11.h"
 #import "HQAsset.h"
-#import "CMUtils.h"
+#import "NSString+util.h"
+#import "CMConfig.h"
 
 @implementation APIClient (image)
 
@@ -22,7 +23,7 @@
     static dispatch_queue_t queue;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        queue = dispatch_queue_create("com.xxxx.imageDealQueue", DISPATCH_QUEUE_CONCURRENT);
+        queue = dispatch_queue_create("com.solot.imageDealQueue", DISPATCH_QUEUE_CONCURRENT);
     });
     return queue;
 }
@@ -155,6 +156,7 @@
 //下载图片
 - (void)downloadImage:(NSString *)imageId success:(imageHandlerSuccess)success failure:(fHandler)failure
 {
+    
     [self downloadImage:imageId size:CGSizeZero success:success failure:failure];
 }
 - (void)downloadImage:(NSString *)imageId size:(CGSize)size success:(imageHandlerSuccess)success failure:(fHandler)failure
@@ -179,14 +181,14 @@
 
 - (void)downloadImage:(NSString *)imageId size:(CGSize)size success:(imageHandlerSuccess)success failure:(fHandler)failure progress:(void(^)(long long, long long))progress
 {
-//    [APIClient sharedInstance].imageClient;
-//    http://pic.angler.im/51kx0aoLTx7Bax3qLI1ppi@.webp
-//    NSString *url = [self imageURLForImageId:imageId size:size];
-//    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
-//    AFHTTPRequestOperation *operatioin = [[AFHTTPRequestOperation alloc] initWithRequest:request];
-//    AFImageResponseSerializer
-//    [self.imageClient api]
-//    AFImageRequestOperation *operation = [AFImageResponseSerializer]
+    //    [APIClient sharedInstance].imageClient;
+    //    http://pic.angler.im/51kx0aoLTx7Bax3qLI1ppi@.webp
+    //    NSString *url = [self imageURLForImageId:imageId size:size];
+    //    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
+    //    AFHTTPRequestOperation *operatioin = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+    //    AFImageResponseSerializer
+    //    [self.imageClient api]
+    //    AFImageRequestOperation *operation = [AFImageResponseSerializer]
     
 }
 
@@ -316,7 +318,7 @@
 //    {
 //        temp = [NSMutableDictionary dictionaryWithDictionary:maps];
 //    }
-//    
+//
 //    NSString *imageId = [imageIds lastObject];
 //    NSMutableArray *imageIdTemps = [NSMutableArray arrayWithArray:imageIds];
 //    [imageIdTemps removeLastObject];
@@ -328,7 +330,7 @@
 //        }
 //        return;
 //    }
-//    
+//
 //    [self uploadImageWithImageId:imageId success:^(NSString *imageId)
 //    {
 //        [self multiUploadImageWithImageId:imageIdTemps imageIdMaps:temp success:success failure:failure];
@@ -379,12 +381,16 @@
          } fHandler:failure];
     }
     
-
+    
 }
 
 //检查存在与否
 - (void)checkExist:(NSString *)MD5 sHandler:(sHandler)sHandler fHandler:(fHandler)fHandler
 {
+    if(!MD5)
+    {
+        if(fHandler)fHandler(nil);
+    }
     [self.imageClient apiGetPath:@"check" parameters:@{@"md5":MD5} sHandler:sHandler fHandler:fHandler];
 }
 
@@ -455,7 +461,7 @@
     NSString *filepath = [self getPathForImage:imageId size:size];
     [image saveToPath:filepath];
     return filepath;
-
+    
 }
 
 //修改文件名
@@ -532,30 +538,30 @@
 - (void)getCachedImageById:(NSString *)imageId size:(CGSize)size finish:(void(^)(UIImage *image))result
 {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^
-    {
-        if (imageId == nil || imageId.length == 0)
-        {
-            if(result)
-            {
-                result(nil);
-            }
-        }
-        NSString *filepath = [self getPathForImage:imageId size:size];
-        if ([[NSFileManager defaultManager] fileExistsAtPath:filepath])
-        {
-            UIImage *image = [UIImage imageWithContentsOfFile:filepath];
-            if(result)
-            {
-                result(image);
-            }
-        }
-        else
-        {
-            if(result)
-            {
-                result(nil);
-            }
-        }
-    });
+                   {
+                       if (imageId == nil || imageId.length == 0)
+                       {
+                           if(result)
+                           {
+                               result(nil);
+                           }
+                       }
+                       NSString *filepath = [self getPathForImage:imageId size:size];
+                       if ([[NSFileManager defaultManager] fileExistsAtPath:filepath])
+                       {
+                           UIImage *image = [UIImage imageWithContentsOfFile:filepath];
+                           if(result)
+                           {
+                               result(image);
+                           }
+                       }
+                       else
+                       {
+                           if(result)
+                           {
+                               result(nil);
+                           }
+                       }
+                   });
 }
 @end

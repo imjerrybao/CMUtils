@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1835F43D1C147DFE00FC3189 /* sr_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 1835F4361C147DFE00FC3189 /* sr_refresh.png */; };
+		1835F43E1C147DFE00FC3189 /* sr_refresh@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 1835F4371C147DFE00FC3189 /* sr_refresh@2X.png */; };
+		1835F43F1C147DFE00FC3189 /* SRRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835F43A1C147DFE00FC3189 /* SRRefreshView.m */; };
+		1835F4401C147DFE00FC3189 /* SRSlimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835F43C1C147DFE00FC3189 /* SRSlimeView.m */; };
 		187A87101BA3CFDB009DEA1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A870F1BA3CFDB009DEA1D /* main.m */; };
 		187A87131BA3CFDB009DEA1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A87121BA3CFDB009DEA1D /* AppDelegate.m */; };
 		187A87161BA3CFDB009DEA1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A87151BA3CFDB009DEA1D /* ViewController.m */; };
@@ -101,6 +105,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1835F4361C147DFE00FC3189 /* sr_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sr_refresh.png; sourceTree = "<group>"; };
+		1835F4371C147DFE00FC3189 /* sr_refresh@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sr_refresh@2X.png"; sourceTree = "<group>"; };
+		1835F4381C147DFE00FC3189 /* SRDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDefine.h; sourceTree = "<group>"; };
+		1835F4391C147DFE00FC3189 /* SRRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRefreshView.h; sourceTree = "<group>"; };
+		1835F43A1C147DFE00FC3189 /* SRRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRefreshView.m; sourceTree = "<group>"; };
+		1835F43B1C147DFE00FC3189 /* SRSlimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSlimeView.h; sourceTree = "<group>"; };
+		1835F43C1C147DFE00FC3189 /* SRSlimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSlimeView.m; sourceTree = "<group>"; };
 		187A870A1BA3CFDB009DEA1D /* CMUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187A870E1BA3CFDB009DEA1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187A870F1BA3CFDB009DEA1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -301,6 +312,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1835F4351C147DFE00FC3189 /* SlimeRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				1835F4361C147DFE00FC3189 /* sr_refresh.png */,
+				1835F4371C147DFE00FC3189 /* sr_refresh@2X.png */,
+				1835F4381C147DFE00FC3189 /* SRDefine.h */,
+				1835F4391C147DFE00FC3189 /* SRRefreshView.h */,
+				1835F43A1C147DFE00FC3189 /* SRRefreshView.m */,
+				1835F43B1C147DFE00FC3189 /* SRSlimeView.h */,
+				1835F43C1C147DFE00FC3189 /* SRSlimeView.m */,
+			);
+			path = SlimeRefresh;
+			sourceTree = "<group>";
+		};
 		187A87011BA3CFDB009DEA1D = {
 			isa = PBXGroup;
 			children = (
@@ -411,6 +436,7 @@
 		187A87641BA3D142009DEA1D /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				1835F4351C147DFE00FC3189 /* SlimeRefresh */,
 				18892A5F1BA44BB40097486C /* IDMPhotoBrowser */,
 				18892A5B1BA44B710097486C /* PhotoWall */,
 				187A88E91BA3F2E3009DEA1D /* Account */,
@@ -825,8 +851,10 @@
 			files = (
 				187A87191BA3CFDB009DEA1D /* Main.storyboard in Resources */,
 				18892A711BA44BB40097486C /* IDMPBLocalizations.bundle in Resources */,
+				1835F43E1C147DFE00FC3189 /* sr_refresh@2X.png in Resources */,
 				18892A731BA44BB40097486C /* IDMPhotoBrowser.bundle in Resources */,
 				187A871E1BA3CFDB009DEA1D /* LaunchScreen.xib in Resources */,
+				1835F43D1C147DFE00FC3189 /* sr_refresh.png in Resources */,
 				187A871B1BA3CFDB009DEA1D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -885,6 +913,7 @@
 				187A88BE1BA3D143009DEA1D /* WebPImageSerialization.m in Sources */,
 				187A88691BA3D142009DEA1D /* BufferedNavigationController.m in Sources */,
 				187A888E1BA3D142009DEA1D /* HQTextField.m in Sources */,
+				1835F4401C147DFE00FC3189 /* SRSlimeView.m in Sources */,
 				187A88E51BA3ECC4009DEA1D /* UIImageView+imageId.m in Sources */,
 				187A88AB1BA3D143009DEA1D /* SFOutAnimatedCircleView.m in Sources */,
 				187A88531BA3D142009DEA1D /* UIImage+Color.m in Sources */,
@@ -939,6 +968,7 @@
 				187A88611BA3D142009DEA1D /* HQBaseAnnoView.m in Sources */,
 				187A889F1BA3D143009DEA1D /* IQDropDownTextField.m in Sources */,
 				18892A701BA44BB40097486C /* IDMCaptionView.m in Sources */,
+				1835F43F1C147DFE00FC3189 /* SRRefreshView.m in Sources */,
 				187A885D1BA3D142009DEA1D /* AFNetworkActivityLogger.m in Sources */,
 				187A88601BA3D142009DEA1D /* HQBaseAnnotation.m in Sources */,
 				187A88F81BA3F2E3009DEA1D /* CRAccount.m in Sources */,

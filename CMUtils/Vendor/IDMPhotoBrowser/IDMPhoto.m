@@ -184,10 +184,15 @@ caption = _caption;
             }];
             
             [[NSOperationQueue mainQueue] addOperation:op];
-        }else if (_imageId)
+        } else if (_imageId)
         {
-            NSString *imageId = _imageId;
-            NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[[APIClient sharedInstance] imageUrlForId:_imageId size:CGSizeZero]]];
+            NSString *imageUrl = _imageId;
+            DLOG(@"%@", _imageId);
+            if (![[_imageId lowercaseString] hasPrefix:@"http://"] || ![[_imageId lowercaseString] hasPrefix:@"http://"]) {
+                //将图片id转换成NSURLRequest
+                imageUrl = [[APIClient sharedInstance] imageUrlForId:_imageId size:CGSizeZero];
+            }
+            NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:imageUrl]];
             void(^success)(UIImage *image) = ^(UIImage *image)
             {
                 self.underlyingImage = image;
@@ -205,7 +210,7 @@ caption = _caption;
             else
             {
                 //从本地缓存中查找是否有图片
-                [[APIClient sharedInstance] getCachedImageById:imageId size:CGSizeZero finish:^(UIImage *image)
+                [[APIClient sharedInstance] getCachedImageById:imageUrl size:CGSizeZero finish:^(UIImage *image)
                  {
                      if (image != nil)
                      {
@@ -215,7 +220,7 @@ caption = _caption;
                      }
                      else
                      {
-                         if (imageId.length == 0) {
+                         if (imageUrl.length == 0) {
                              return;
                          }
                          //最后请求网络
@@ -228,7 +233,7 @@ caption = _caption;
                              {
                                  success(image);
                                  dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
-                                     [[APIClient sharedInstance] saveImage:image imageId:imageId size:CGSizeZero];
+                                     [[APIClient sharedInstance] saveImage:image imageId:imageUrl size:CGSizeZero];
                                  });
                              }
                              

@@ -2,7 +2,7 @@
 //  APIClient+image.h
 //  CMUtils
 //
-//  Created by Jerry on 15/3/20.
+//  Created by LiuHuanQing on 15/3/20.
 //  Copyright (c) 2015年 Jerry. All rights reserved.
 //
 
@@ -71,7 +71,7 @@ typedef void(^imageHandlerFailure)(NSHTTPURLResponse *response ,NSError *error);
 - (void)multiUploadImageWithImageId:(NSArray *)imageIds
                         successMaps:(NSMutableDictionary *)successMaps
                        failImageIds:(NSMutableArray *)failImageIds
-                            complete:(void(^)(NSDictionary *imageIdMaps,NSArray *failImageIds))complete;
+                           complete:(void(^)(NSDictionary *imageIdMaps,NSArray *failImageIds))complete;
 //检测图片是否存在
 - (void)checkExist:(NSString *)MD5 sHandler:(sHandler)sHandler fHandler:(fHandler)fHandler;
 

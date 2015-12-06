@@ -1,9 +1,9 @@
 //
-//  PhotoWallView.h
-//  iBoost
+//  PhotoWallView.m
+//  CMUtils
 //
 //  Created by Jerry on 15/6/17.
-//  Copyright (c) 2015年 Jerry Inc. All rights reserved.
+//  Copyright (c) 2015年 Jerry. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -15,6 +15,6 @@
 @interface PhotoWallView : UIView
 @property (nonatomic, weak) id<PhotoWallViewDelegate> delegate;           // 代理
 
-- (void)photoWithArray:(NSArray *)arrayImage width:(CGFloat)width;
-- (CGFloat)photoWallHeight;
+- (void)photoWithArray:(NSArray *)arrayImage;
++ (CGSize)PhotoWallHeight:(NSArray *)arrayImage;
 @end
