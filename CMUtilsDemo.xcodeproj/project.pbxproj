@@ -63,7 +63,6 @@
 		187A889D1BA3D143009DEA1D /* IQActionSheetPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A87F21BA3D142009DEA1D /* IQActionSheetPickerView.m */; };
 		187A889E1BA3D143009DEA1D /* IQActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A87F41BA3D142009DEA1D /* IQActionSheetViewController.m */; };
 		187A889F1BA3D143009DEA1D /* IQDropDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A87F81BA3D142009DEA1D /* IQDropDownTextField.m */; };
-		187A88A01BA3D143009DEA1D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 187A87F91BA3D142009DEA1D /* LICENSE */; };
 		187A88A11BA3D143009DEA1D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 187A87FA1BA3D142009DEA1D /* README.md */; };
 		187A88A21BA3D143009DEA1D /* NYXImagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A87FD1BA3D142009DEA1D /* NYXImagesHelper.m */; };
 		187A88A51BA3D143009DEA1D /* PlaceName.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A88061BA3D142009DEA1D /* PlaceName.m */; };
@@ -98,11 +97,6 @@
 		18892A751BA44BB50097486C /* IDMTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18892A6B1BA44BB40097486C /* IDMTapDetectingImageView.m */; };
 		18892A761BA44BB50097486C /* IDMTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18892A6D1BA44BB40097486C /* IDMTapDetectingView.m */; };
 		18892A771BA44BB50097486C /* IDMZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18892A6F1BA44BB40097486C /* IDMZoomingScrollView.m */; };
-		18892A831BA44ED00097486C /* DBInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 18892A7A1BA44ED00097486C /* DBInit.m */; };
-		18892A841BA44ED00097486C /* HQDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18892A7C1BA44ED00097486C /* HQDatabaseManager.m */; };
-		18892A851BA44ED00097486C /* HQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18892A7E1BA44ED00097486C /* HQModel.m */; };
-		18892A861BA44ED00097486C /* HQModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18892A801BA44ED00097486C /* HQModelClassProperty.m */; };
-		18892A871BA44ED00097486C /* HQModelMetadate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18892A821BA44ED00097486C /* HQModelMetadate.m */; };
 		2815CE217E76FF57F1E12182 /* libPods-CMUtilsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C500AC384D3FEA64DD86BFC /* libPods-CMUtilsDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -219,7 +213,6 @@
 		187A87F41BA3D142009DEA1D /* IQActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQActionSheetViewController.m; sourceTree = "<group>"; };
 		187A87F71BA3D142009DEA1D /* IQDropDownTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQDropDownTextField.h; sourceTree = "<group>"; };
 		187A87F81BA3D142009DEA1D /* IQDropDownTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQDropDownTextField.m; sourceTree = "<group>"; };
-		187A87F91BA3D142009DEA1D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		187A87FA1BA3D142009DEA1D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		187A87FC1BA3D142009DEA1D /* NYXImagesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYXImagesHelper.h; sourceTree = "<group>"; };
 		187A87FD1BA3D142009DEA1D /* NYXImagesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYXImagesHelper.m; sourceTree = "<group>"; };
@@ -290,16 +283,6 @@
 		18892A6D1BA44BB40097486C /* IDMTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMTapDetectingView.m; sourceTree = "<group>"; };
 		18892A6E1BA44BB40097486C /* IDMZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMZoomingScrollView.h; sourceTree = "<group>"; };
 		18892A6F1BA44BB40097486C /* IDMZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMZoomingScrollView.m; sourceTree = "<group>"; };
-		18892A791BA44ED00097486C /* DBInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBInit.h; sourceTree = "<group>"; };
-		18892A7A1BA44ED00097486C /* DBInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBInit.m; sourceTree = "<group>"; };
-		18892A7B1BA44ED00097486C /* HQDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQDatabaseManager.h; sourceTree = "<group>"; };
-		18892A7C1BA44ED00097486C /* HQDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQDatabaseManager.m; sourceTree = "<group>"; };
-		18892A7D1BA44ED00097486C /* HQModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQModel.h; sourceTree = "<group>"; };
-		18892A7E1BA44ED00097486C /* HQModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQModel.m; sourceTree = "<group>"; };
-		18892A7F1BA44ED00097486C /* HQModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQModelClassProperty.h; sourceTree = "<group>"; };
-		18892A801BA44ED00097486C /* HQModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQModelClassProperty.m; sourceTree = "<group>"; };
-		18892A811BA44ED00097486C /* HQModelMetadate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQModelMetadate.h; sourceTree = "<group>"; };
-		18892A821BA44ED00097486C /* HQModelMetadate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQModelMetadate.m; sourceTree = "<group>"; };
 		4C500AC384D3FEA64DD86BFC /* libPods-CMUtilsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CMUtilsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A893CA3D098634312F7A5C /* Pods-CMUtilsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMUtilsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMUtilsDemo/Pods-CMUtilsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EC964CE0F32D5C9AB27FF481 /* Pods-CMUtilsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMUtilsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMUtilsDemo/Pods-CMUtilsDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -428,7 +411,6 @@
 		187A87641BA3D142009DEA1D /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				18892A781BA44ED00097486C /* DB */,
 				18892A5F1BA44BB40097486C /* IDMPhotoBrowser */,
 				18892A5B1BA44B710097486C /* PhotoWall */,
 				187A88E91BA3F2E3009DEA1D /* Account */,
@@ -617,7 +599,6 @@
 			isa = PBXGroup;
 			children = (
 				187A87F61BA3D142009DEA1D /* IQDropDownTextField */,
-				187A87F91BA3D142009DEA1D /* LICENSE */,
 				187A87FA1BA3D142009DEA1D /* README.md */,
 			);
 			path = IQDropDownTextField;
@@ -766,23 +747,6 @@
 			path = IDMPhotoBrowser;
 			sourceTree = "<group>";
 		};
-		18892A781BA44ED00097486C /* DB */ = {
-			isa = PBXGroup;
-			children = (
-				18892A791BA44ED00097486C /* DBInit.h */,
-				18892A7A1BA44ED00097486C /* DBInit.m */,
-				18892A7B1BA44ED00097486C /* HQDatabaseManager.h */,
-				18892A7C1BA44ED00097486C /* HQDatabaseManager.m */,
-				18892A7D1BA44ED00097486C /* HQModel.h */,
-				18892A7E1BA44ED00097486C /* HQModel.m */,
-				18892A7F1BA44ED00097486C /* HQModelClassProperty.h */,
-				18892A801BA44ED00097486C /* HQModelClassProperty.m */,
-				18892A811BA44ED00097486C /* HQModelMetadate.h */,
-				18892A821BA44ED00097486C /* HQModelMetadate.m */,
-			);
-			path = DB;
-			sourceTree = "<group>";
-		};
 		1D9B1EFB0FB2FEBD57E3E308 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -863,7 +827,6 @@
 				18892A711BA44BB40097486C /* IDMPBLocalizations.bundle in Resources */,
 				18892A731BA44BB40097486C /* IDMPhotoBrowser.bundle in Resources */,
 				187A871E1BA3CFDB009DEA1D /* LaunchScreen.xib in Resources */,
-				187A88A01BA3D143009DEA1D /* LICENSE in Resources */,
 				187A871B1BA3CFDB009DEA1D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -914,7 +877,6 @@
 				187A88591BA3D142009DEA1D /* UILabel+StringFrame.m in Sources */,
 				187A88641BA3D142009DEA1D /* REVAnnotationsCollection.m in Sources */,
 				187A885E1BA3D142009DEA1D /* AppStartManager.m in Sources */,
-				18892A861BA44ED00097486C /* HQModelClassProperty.m in Sources */,
 				187A884B1BA3D142009DEA1D /* NSData+util.m in Sources */,
 				187A884F1BA3D142009DEA1D /* NSString+AES.m in Sources */,
 				187A88E21BA3ECC4009DEA1D /* APIErrorCodeCache.m in Sources */,
@@ -930,11 +892,9 @@
 				187A88A51BA3D143009DEA1D /* PlaceName.m in Sources */,
 				187A889E1BA3D143009DEA1D /* IQActionSheetViewController.m in Sources */,
 				187A88761BA3D142009DEA1D /* Hex62ToStr11.m in Sources */,
-				18892A841BA44ED00097486C /* HQDatabaseManager.m in Sources */,
 				187A88711BA3D142009DEA1D /* GeoHash.m in Sources */,
 				187A88C21BA3DB20009DEA1D /* CMConfig.m in Sources */,
 				187A88BB1BA3D143009DEA1D /* UIScrollView+SVInfiniteScrolling.m in Sources */,
-				18892A831BA44ED00097486C /* DBInit.m in Sources */,
 				187A88731BA3D142009DEA1D /* GHNeighbors.m in Sources */,
 				187A88781BA3D142009DEA1D /* HQLocationManager.m in Sources */,
 				187A88661BA3D142009DEA1D /* REVClusterManager.m in Sources */,
@@ -944,7 +904,6 @@
 				187A88DD1BA3ECC4009DEA1D /* APIClient+image.m in Sources */,
 				187A87131BA3CFDB009DEA1D /* AppDelegate.m in Sources */,
 				187A88791BA3D142009DEA1D /* PositionDecode.m in Sources */,
-				18892A871BA44ED00097486C /* HQModelMetadate.m in Sources */,
 				187A88541BA3D142009DEA1D /* UIImage+Resizing.m in Sources */,
 				187A88521BA3D142009DEA1D /* UIDevice+hardware.m in Sources */,
 				187A88E11BA3ECC4009DEA1D /* APIClient.m in Sources */,
@@ -964,7 +923,6 @@
 				187A885C1BA3D142009DEA1D /* UIView+Util.m in Sources */,
 				187A88551BA3D142009DEA1D /* UIImage+Rotating.m in Sources */,
 				187A88721BA3D142009DEA1D /* GHArea.m in Sources */,
-				18892A851BA44ED00097486C /* HQModel.m in Sources */,
 				187A88671BA3D142009DEA1D /* REVClusterMapView.m in Sources */,
 				187A89011BA3F357009DEA1D /* Userinfo.m in Sources */,
 				187A88701BA3D142009DEA1D /* cgeohash.m in Sources */,
@@ -1109,7 +1067,8 @@
 			baseConfigurationReference = D5A893CA3D098634312F7A5C /* Pods-CMUtilsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CMUtils/Vendor",
@@ -1132,7 +1091,8 @@
 			baseConfigurationReference = EC964CE0F32D5C9AB27FF481 /* Pods-CMUtilsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CMUtils/Vendor",
