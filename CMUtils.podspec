@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage                = 'https://github.com/imjerrybao/CMUtils'
   s.license                 = { :type => 'MIT', :file => 'LICENSE' }
   s.author                  = { 'Jerry' => 'imjerrybao@gmail.com' }
-  s.source                  = { :git => 'https://github.com/imjerrybao/CMUtils.git' }
+  s.source                  = { :git => 'https://github.com/imjerrybao/CMUtils.git', :tag => "v#{s.version.to_s}" }
   s.public_header_files     = 'CMUtils/**/*.h'
   s.source_files            = 'CMUtils/**/*.{h,m,c}'
   s.ios.frameworks          = ['UIKit', 'Foundation', 'MapKit', 'ImageIO']
