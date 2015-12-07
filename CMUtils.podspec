@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.platform                = :ios, '7.0'
   s.name                    = 'CMUtils'
-  s.version                 = '0.1.5'
+  s.version                 = '0.1.6'
   s.summary                 = 'iOS development class catgories and venders, boost development fastly.'
   s.homepage                = 'https://github.com/imjerrybao/CMUtils'
   s.license                 = { :type => 'MIT', :file => 'LICENSE' }
