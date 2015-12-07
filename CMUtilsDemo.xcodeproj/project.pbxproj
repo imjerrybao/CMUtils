@@ -11,6 +11,30 @@
 		1835F43E1C147DFE00FC3189 /* sr_refresh@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 1835F4371C147DFE00FC3189 /* sr_refresh@2X.png */; };
 		1835F43F1C147DFE00FC3189 /* SRRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835F43A1C147DFE00FC3189 /* SRRefreshView.m */; };
 		1835F4401C147DFE00FC3189 /* SRSlimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835F43C1C147DFE00FC3189 /* SRSlimeView.m */; };
+		18798AB31C15BA6C00CA7605 /* HQDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798A8A1C15BA6C00CA7605 /* HQDotView.m */; };
+		18798AB41C15BA6C00CA7605 /* HQPhotoAlbumListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798A8C1C15BA6C00CA7605 /* HQPhotoAlbumListView.m */; };
+		18798AB51C15BA6C00CA7605 /* HQPhotoAlbumNaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798A8E1C15BA6C00CA7605 /* HQPhotoAlbumNaView.m */; };
+		18798AB61C15BA6C00CA7605 /* HQPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798A901C15BA6C00CA7605 /* HQPhotoController.m */; };
+		18798AB71C15BA6C00CA7605 /* HQPhotoLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798A921C15BA6C00CA7605 /* HQPhotoLibrary.m */; };
+		18798AB81C15BA6C00CA7605 /* HQPhotoPageOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798A941C15BA6C00CA7605 /* HQPhotoPageOne.m */; };
+		18798AB91C15BA6C00CA7605 /* HQPhotoPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798A961C15BA6C00CA7605 /* HQPhotoPageVC.m */; };
+		18798ABA1C15BA6C00CA7605 /* HQPhotoSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798A981C15BA6C00CA7605 /* HQPhotoSelector.m */; };
+		18798ABB1C15BA6C00CA7605 /* HQPhotoSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798A9A1C15BA6C00CA7605 /* HQPhotoSelectorCell.m */; };
+		18798ABC1C15BA6C00CA7605 /* BackIcon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18798A9C1C15BA6C00CA7605 /* BackIcon1@2x.png */; };
+		18798ABD1C15BA6C00CA7605 /* BackIcon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18798A9D1C15BA6C00CA7605 /* BackIcon2@2x.png */; };
+		18798ABE1C15BA6C00CA7605 /* BlueDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18798A9E1C15BA6C00CA7605 /* BlueDot@2x.png */; };
+		18798ABF1C15BA6C00CA7605 /* BlueDot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18798A9F1C15BA6C00CA7605 /* BlueDot@3x.png */; };
+		18798AC01C15BA6C00CA7605 /* Check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18798AA01C15BA6C00CA7605 /* Check@2x.png */; };
+		18798AC11C15BA6C00CA7605 /* Check@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18798AA11C15BA6C00CA7605 /* Check@3x.png */; };
+		18798AC21C15BA6C00CA7605 /* noCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18798AA21C15BA6C00CA7605 /* noCheck@2x.png */; };
+		18798AC31C15BA6C00CA7605 /* noCheck@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18798AA31C15BA6C00CA7605 /* noCheck@3x.png */; };
+		18798AC41C15BA6C00CA7605 /* UIView+animated.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798AA61C15BA6C00CA7605 /* UIView+animated.m */; };
+		18798AC51C15BA6C00CA7605 /* HQThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798AA91C15BA6C00CA7605 /* HQThumbnail.m */; };
+		18798AC61C15BA6C00CA7605 /* HQThumbnailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798AAB1C15BA6C00CA7605 /* HQThumbnailController.m */; };
+		18798AC71C15BA6C00CA7605 /* write_log_addPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 18798AAD1C15BA6C00CA7605 /* write_log_addPhoto.png */; };
+		18798AC81C15BA6C00CA7605 /* write_log_addPhoto_high.png in Resources */ = {isa = PBXBuildFile; fileRef = 18798AAE1C15BA6C00CA7605 /* write_log_addPhoto_high.png */; };
+		18798AC91C15BA6C00CA7605 /* write_log_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 18798AAF1C15BA6C00CA7605 /* write_log_delete.png */; };
+		18798ACA1C15BA6C00CA7605 /* StyledNavigaitonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18798AB21C15BA6C00CA7605 /* StyledNavigaitonController.m */; };
 		187A87101BA3CFDB009DEA1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A870F1BA3CFDB009DEA1D /* main.m */; };
 		187A87131BA3CFDB009DEA1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A87121BA3CFDB009DEA1D /* AppDelegate.m */; };
 		187A87161BA3CFDB009DEA1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A87151BA3CFDB009DEA1D /* ViewController.m */; };
@@ -112,6 +136,43 @@
 		1835F43A1C147DFE00FC3189 /* SRRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRefreshView.m; sourceTree = "<group>"; };
 		1835F43B1C147DFE00FC3189 /* SRSlimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSlimeView.h; sourceTree = "<group>"; };
 		1835F43C1C147DFE00FC3189 /* SRSlimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSlimeView.m; sourceTree = "<group>"; };
+		18798A891C15BA6C00CA7605 /* HQDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQDotView.h; sourceTree = "<group>"; };
+		18798A8A1C15BA6C00CA7605 /* HQDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQDotView.m; sourceTree = "<group>"; };
+		18798A8B1C15BA6C00CA7605 /* HQPhotoAlbumListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQPhotoAlbumListView.h; sourceTree = "<group>"; };
+		18798A8C1C15BA6C00CA7605 /* HQPhotoAlbumListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQPhotoAlbumListView.m; sourceTree = "<group>"; };
+		18798A8D1C15BA6C00CA7605 /* HQPhotoAlbumNaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQPhotoAlbumNaView.h; sourceTree = "<group>"; };
+		18798A8E1C15BA6C00CA7605 /* HQPhotoAlbumNaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQPhotoAlbumNaView.m; sourceTree = "<group>"; };
+		18798A8F1C15BA6C00CA7605 /* HQPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQPhotoController.h; sourceTree = "<group>"; };
+		18798A901C15BA6C00CA7605 /* HQPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQPhotoController.m; sourceTree = "<group>"; };
+		18798A911C15BA6C00CA7605 /* HQPhotoLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQPhotoLibrary.h; sourceTree = "<group>"; };
+		18798A921C15BA6C00CA7605 /* HQPhotoLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQPhotoLibrary.m; sourceTree = "<group>"; };
+		18798A931C15BA6C00CA7605 /* HQPhotoPageOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQPhotoPageOne.h; sourceTree = "<group>"; };
+		18798A941C15BA6C00CA7605 /* HQPhotoPageOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQPhotoPageOne.m; sourceTree = "<group>"; };
+		18798A951C15BA6C00CA7605 /* HQPhotoPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQPhotoPageVC.h; sourceTree = "<group>"; };
+		18798A961C15BA6C00CA7605 /* HQPhotoPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQPhotoPageVC.m; sourceTree = "<group>"; };
+		18798A971C15BA6C00CA7605 /* HQPhotoSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQPhotoSelector.h; sourceTree = "<group>"; };
+		18798A981C15BA6C00CA7605 /* HQPhotoSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQPhotoSelector.m; sourceTree = "<group>"; };
+		18798A991C15BA6C00CA7605 /* HQPhotoSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQPhotoSelectorCell.h; sourceTree = "<group>"; };
+		18798A9A1C15BA6C00CA7605 /* HQPhotoSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQPhotoSelectorCell.m; sourceTree = "<group>"; };
+		18798A9C1C15BA6C00CA7605 /* BackIcon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackIcon1@2x.png"; sourceTree = "<group>"; };
+		18798A9D1C15BA6C00CA7605 /* BackIcon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackIcon2@2x.png"; sourceTree = "<group>"; };
+		18798A9E1C15BA6C00CA7605 /* BlueDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlueDot@2x.png"; sourceTree = "<group>"; };
+		18798A9F1C15BA6C00CA7605 /* BlueDot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlueDot@3x.png"; sourceTree = "<group>"; };
+		18798AA01C15BA6C00CA7605 /* Check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Check@2x.png"; sourceTree = "<group>"; };
+		18798AA11C15BA6C00CA7605 /* Check@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Check@3x.png"; sourceTree = "<group>"; };
+		18798AA21C15BA6C00CA7605 /* noCheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noCheck@2x.png"; sourceTree = "<group>"; };
+		18798AA31C15BA6C00CA7605 /* noCheck@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noCheck@3x.png"; sourceTree = "<group>"; };
+		18798AA51C15BA6C00CA7605 /* UIView+animated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+animated.h"; sourceTree = "<group>"; };
+		18798AA61C15BA6C00CA7605 /* UIView+animated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+animated.m"; sourceTree = "<group>"; };
+		18798AA81C15BA6C00CA7605 /* HQThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQThumbnail.h; sourceTree = "<group>"; };
+		18798AA91C15BA6C00CA7605 /* HQThumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQThumbnail.m; sourceTree = "<group>"; };
+		18798AAA1C15BA6C00CA7605 /* HQThumbnailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQThumbnailController.h; sourceTree = "<group>"; };
+		18798AAB1C15BA6C00CA7605 /* HQThumbnailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQThumbnailController.m; sourceTree = "<group>"; };
+		18798AAD1C15BA6C00CA7605 /* write_log_addPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = write_log_addPhoto.png; sourceTree = "<group>"; };
+		18798AAE1C15BA6C00CA7605 /* write_log_addPhoto_high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = write_log_addPhoto_high.png; sourceTree = "<group>"; };
+		18798AAF1C15BA6C00CA7605 /* write_log_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = write_log_delete.png; sourceTree = "<group>"; };
+		18798AB11C15BA6C00CA7605 /* StyledNavigaitonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledNavigaitonController.h; sourceTree = "<group>"; };
+		18798AB21C15BA6C00CA7605 /* StyledNavigaitonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledNavigaitonController.m; sourceTree = "<group>"; };
 		187A870A1BA3CFDB009DEA1D /* CMUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187A870E1BA3CFDB009DEA1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187A870F1BA3CFDB009DEA1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -326,6 +387,88 @@
 			path = SlimeRefresh;
 			sourceTree = "<group>";
 		};
+		18798A881C15BA6C00CA7605 /* HQPhotoSelector */ = {
+			isa = PBXGroup;
+			children = (
+				18798A891C15BA6C00CA7605 /* HQDotView.h */,
+				18798A8A1C15BA6C00CA7605 /* HQDotView.m */,
+				18798A8B1C15BA6C00CA7605 /* HQPhotoAlbumListView.h */,
+				18798A8C1C15BA6C00CA7605 /* HQPhotoAlbumListView.m */,
+				18798A8D1C15BA6C00CA7605 /* HQPhotoAlbumNaView.h */,
+				18798A8E1C15BA6C00CA7605 /* HQPhotoAlbumNaView.m */,
+				18798A8F1C15BA6C00CA7605 /* HQPhotoController.h */,
+				18798A901C15BA6C00CA7605 /* HQPhotoController.m */,
+				18798A911C15BA6C00CA7605 /* HQPhotoLibrary.h */,
+				18798A921C15BA6C00CA7605 /* HQPhotoLibrary.m */,
+				18798A931C15BA6C00CA7605 /* HQPhotoPageOne.h */,
+				18798A941C15BA6C00CA7605 /* HQPhotoPageOne.m */,
+				18798A951C15BA6C00CA7605 /* HQPhotoPageVC.h */,
+				18798A961C15BA6C00CA7605 /* HQPhotoPageVC.m */,
+				18798A971C15BA6C00CA7605 /* HQPhotoSelector.h */,
+				18798A981C15BA6C00CA7605 /* HQPhotoSelector.m */,
+				18798A991C15BA6C00CA7605 /* HQPhotoSelectorCell.h */,
+				18798A9A1C15BA6C00CA7605 /* HQPhotoSelectorCell.m */,
+				18798A9B1C15BA6C00CA7605 /* Resources */,
+				18798AA41C15BA6C00CA7605 /* Util */,
+			);
+			path = HQPhotoSelector;
+			sourceTree = "<group>";
+		};
+		18798A9B1C15BA6C00CA7605 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18798A9C1C15BA6C00CA7605 /* BackIcon1@2x.png */,
+				18798A9D1C15BA6C00CA7605 /* BackIcon2@2x.png */,
+				18798A9E1C15BA6C00CA7605 /* BlueDot@2x.png */,
+				18798A9F1C15BA6C00CA7605 /* BlueDot@3x.png */,
+				18798AA01C15BA6C00CA7605 /* Check@2x.png */,
+				18798AA11C15BA6C00CA7605 /* Check@3x.png */,
+				18798AA21C15BA6C00CA7605 /* noCheck@2x.png */,
+				18798AA31C15BA6C00CA7605 /* noCheck@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18798AA41C15BA6C00CA7605 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				18798AA51C15BA6C00CA7605 /* UIView+animated.h */,
+				18798AA61C15BA6C00CA7605 /* UIView+animated.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		18798AA71C15BA6C00CA7605 /* HQThumbnailController */ = {
+			isa = PBXGroup;
+			children = (
+				18798AA81C15BA6C00CA7605 /* HQThumbnail.h */,
+				18798AA91C15BA6C00CA7605 /* HQThumbnail.m */,
+				18798AAA1C15BA6C00CA7605 /* HQThumbnailController.h */,
+				18798AAB1C15BA6C00CA7605 /* HQThumbnailController.m */,
+				18798AAC1C15BA6C00CA7605 /* Resources */,
+			);
+			path = HQThumbnailController;
+			sourceTree = "<group>";
+		};
+		18798AAC1C15BA6C00CA7605 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18798AAD1C15BA6C00CA7605 /* write_log_addPhoto.png */,
+				18798AAE1C15BA6C00CA7605 /* write_log_addPhoto_high.png */,
+				18798AAF1C15BA6C00CA7605 /* write_log_delete.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18798AB01C15BA6C00CA7605 /* StyledNavigaitonController */ = {
+			isa = PBXGroup;
+			children = (
+				18798AB11C15BA6C00CA7605 /* StyledNavigaitonController.h */,
+				18798AB21C15BA6C00CA7605 /* StyledNavigaitonController.m */,
+			);
+			path = StyledNavigaitonController;
+			sourceTree = "<group>";
+		};
 		187A87011BA3CFDB009DEA1D = {
 			isa = PBXGroup;
 			children = (
@@ -436,6 +579,9 @@
 		187A87641BA3D142009DEA1D /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				18798A881C15BA6C00CA7605 /* HQPhotoSelector */,
+				18798AA71C15BA6C00CA7605 /* HQThumbnailController */,
+				18798AB01C15BA6C00CA7605 /* StyledNavigaitonController */,
 				1835F4351C147DFE00FC3189 /* SlimeRefresh */,
 				18892A5F1BA44BB40097486C /* IDMPhotoBrowser */,
 				18892A5B1BA44B710097486C /* PhotoWall */,
@@ -849,13 +995,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18798ABC1C15BA6C00CA7605 /* BackIcon1@2x.png in Resources */,
+				18798AC81C15BA6C00CA7605 /* write_log_addPhoto_high.png in Resources */,
 				187A87191BA3CFDB009DEA1D /* Main.storyboard in Resources */,
 				18892A711BA44BB40097486C /* IDMPBLocalizations.bundle in Resources */,
+				18798ABF1C15BA6C00CA7605 /* BlueDot@3x.png in Resources */,
 				1835F43E1C147DFE00FC3189 /* sr_refresh@2X.png in Resources */,
+				18798ABE1C15BA6C00CA7605 /* BlueDot@2x.png in Resources */,
 				18892A731BA44BB40097486C /* IDMPhotoBrowser.bundle in Resources */,
+				18798AC71C15BA6C00CA7605 /* write_log_addPhoto.png in Resources */,
 				187A871E1BA3CFDB009DEA1D /* LaunchScreen.xib in Resources */,
+				18798AC31C15BA6C00CA7605 /* noCheck@3x.png in Resources */,
 				1835F43D1C147DFE00FC3189 /* sr_refresh.png in Resources */,
+				18798ABD1C15BA6C00CA7605 /* BackIcon2@2x.png in Resources */,
+				18798AC91C15BA6C00CA7605 /* write_log_delete.png in Resources */,
+				18798AC21C15BA6C00CA7605 /* noCheck@2x.png in Resources */,
+				18798AC11C15BA6C00CA7605 /* Check@3x.png in Resources */,
 				187A871B1BA3CFDB009DEA1D /* Images.xcassets in Resources */,
+				18798AC01C15BA6C00CA7605 /* Check@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -900,10 +1057,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18892A761BA44BB50097486C /* IDMTapDetectingView.m in Sources */,
+				18798AB81C15BA6C00CA7605 /* HQPhotoPageOne.m in Sources */,
 				187A88751BA3D142009DEA1D /* Hex62To11.c in Sources */,
 				187A87161BA3CFDB009DEA1D /* ViewController.m in Sources */,
 				187A88591BA3D142009DEA1D /* UILabel+StringFrame.m in Sources */,
 				187A88641BA3D142009DEA1D /* REVAnnotationsCollection.m in Sources */,
+				18798AB71C15BA6C00CA7605 /* HQPhotoLibrary.m in Sources */,
 				187A885E1BA3D142009DEA1D /* AppStartManager.m in Sources */,
 				187A884B1BA3D142009DEA1D /* NSData+util.m in Sources */,
 				187A884F1BA3D142009DEA1D /* NSString+AES.m in Sources */,
@@ -916,6 +1075,7 @@
 				1835F4401C147DFE00FC3189 /* SRSlimeView.m in Sources */,
 				187A88E51BA3ECC4009DEA1D /* UIImageView+imageId.m in Sources */,
 				187A88AB1BA3D143009DEA1D /* SFOutAnimatedCircleView.m in Sources */,
+				18798AC41C15BA6C00CA7605 /* UIView+animated.m in Sources */,
 				187A88531BA3D142009DEA1D /* UIImage+Color.m in Sources */,
 				187A884C1BA3D142009DEA1D /* NSDate+util.m in Sources */,
 				187A88A51BA3D143009DEA1D /* PlaceName.m in Sources */,
@@ -924,6 +1084,7 @@
 				187A88711BA3D142009DEA1D /* GeoHash.m in Sources */,
 				187A88C21BA3DB20009DEA1D /* CMConfig.m in Sources */,
 				187A88BB1BA3D143009DEA1D /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				18798AB61C15BA6C00CA7605 /* HQPhotoController.m in Sources */,
 				187A88731BA3D142009DEA1D /* GHNeighbors.m in Sources */,
 				187A88781BA3D142009DEA1D /* HQLocationManager.m in Sources */,
 				187A88661BA3D142009DEA1D /* REVClusterManager.m in Sources */,
@@ -932,12 +1093,14 @@
 				187A88571BA3D142009DEA1D /* UIImage+Util.m in Sources */,
 				187A88DD1BA3ECC4009DEA1D /* APIClient+image.m in Sources */,
 				187A87131BA3CFDB009DEA1D /* AppDelegate.m in Sources */,
+				18798AB31C15BA6C00CA7605 /* HQDotView.m in Sources */,
 				187A88791BA3D142009DEA1D /* PositionDecode.m in Sources */,
 				187A88541BA3D142009DEA1D /* UIImage+Resizing.m in Sources */,
 				187A88521BA3D142009DEA1D /* UIDevice+hardware.m in Sources */,
 				187A88E11BA3ECC4009DEA1D /* APIClient.m in Sources */,
 				187A88681BA3D142009DEA1D /* REVClusterPin.m in Sources */,
 				187A88461BA3D142009DEA1D /* JSONValueTransformer+NSArray.m in Sources */,
+				18798ABB1C15BA6C00CA7605 /* HQPhotoSelectorCell.m in Sources */,
 				187A885B1BA3D142009DEA1D /* UIView+Snapshot.m in Sources */,
 				187A88491BA3D142009DEA1D /* NSArray+Util.m in Sources */,
 				187A88771BA3D142009DEA1D /* HQImageView.m in Sources */,
@@ -946,9 +1109,11 @@
 				187A88A91BA3D143009DEA1D /* MessageInterceptor.m in Sources */,
 				187A88F91BA3F2E3009DEA1D /* CRAccountManager.m in Sources */,
 				187A88BC1BA3D143009DEA1D /* UIScrollView+SVPullToRefresh.m in Sources */,
+				18798AC61C15BA6C00CA7605 /* HQThumbnailController.m in Sources */,
 				18892A751BA44BB50097486C /* IDMTapDetectingImageView.m in Sources */,
 				187A88621BA3D142009DEA1D /* HQBaseClusterAnnoView.m in Sources */,
 				187A88A71BA3D143009DEA1D /* EGORefreshTableHeaderView.m in Sources */,
+				18798ABA1C15BA6C00CA7605 /* HQPhotoSelector.m in Sources */,
 				187A885C1BA3D142009DEA1D /* UIView+Util.m in Sources */,
 				187A88551BA3D142009DEA1D /* UIImage+Rotating.m in Sources */,
 				187A88721BA3D142009DEA1D /* GHArea.m in Sources */,
@@ -965,7 +1130,9 @@
 				187A88481BA3D142009DEA1D /* MBProgressHUD+Extend.m in Sources */,
 				187A88A81BA3D143009DEA1D /* LoadMoreTableFooterView.m in Sources */,
 				187A87101BA3CFDB009DEA1D /* main.m in Sources */,
+				18798AB91C15BA6C00CA7605 /* HQPhotoPageVC.m in Sources */,
 				187A88611BA3D142009DEA1D /* HQBaseAnnoView.m in Sources */,
+				18798AB41C15BA6C00CA7605 /* HQPhotoAlbumListView.m in Sources */,
 				187A889F1BA3D143009DEA1D /* IQDropDownTextField.m in Sources */,
 				18892A701BA44BB40097486C /* IDMCaptionView.m in Sources */,
 				1835F43F1C147DFE00FC3189 /* SRRefreshView.m in Sources */,
@@ -973,14 +1140,17 @@
 				187A88601BA3D142009DEA1D /* HQBaseAnnotation.m in Sources */,
 				187A88F81BA3F2E3009DEA1D /* CRAccount.m in Sources */,
 				187A884A1BA3D142009DEA1D /* NSData+AES.m in Sources */,
+				18798AC51C15BA6C00CA7605 /* HQThumbnail.m in Sources */,
 				187A88A11BA3D143009DEA1D /* README.md in Sources */,
 				187A88471BA3D142009DEA1D /* JSONValueTransformer+NSDictionary.m in Sources */,
+				18798ACA1C15BA6C00CA7605 /* StyledNavigaitonController.m in Sources */,
 				187A885F1BA3D142009DEA1D /* BadgeView.m in Sources */,
 				187A88501BA3D142009DEA1D /* NSString+util.m in Sources */,
 				187A88BA1BA3D143009DEA1D /* PullCollectionView.m in Sources */,
 				187A88A21BA3D143009DEA1D /* NYXImagesHelper.m in Sources */,
 				18892A5E1BA44B710097486C /* PhotoWallView.m in Sources */,
 				187A88DC1BA3ECC4009DEA1D /* AFImageResponseSerializer+WebP.m in Sources */,
+				18798AB51C15BA6C00CA7605 /* HQPhotoAlbumNaView.m in Sources */,
 				18892A741BA44BB40097486C /* IDMPhotoBrowser.m in Sources */,
 				187A88631BA3D142009DEA1D /* HQBaseMapView.m in Sources */,
 				187A88561BA3D142009DEA1D /* UIImage+Saving.m in Sources */,
