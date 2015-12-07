@@ -30,5 +30,8 @@
 #import "PullTableView.h"
 #import "PhotoWallView.h"
 #import "IDMPhotoBrowser.h"
+#import "StyledNavigaitonController.h"
+#import "HQThumbnailController.h"
+#import "HQPhotoSelector.h"
 
 #endif
